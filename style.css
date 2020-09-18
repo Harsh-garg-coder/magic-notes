@@ -1,0 +1,119 @@
+*{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+/* navigation bar */
+
+nav{
+    background-color:black;
+    color:white;
+}
+
+nav ul{
+    display:flex;
+}
+
+nav ul #logo{
+    font-size:1.5rem;
+}
+
+nav ul li{
+    margin:10px;
+}
+
+nav ul #home{
+    margin-top:18px;
+    color:white;
+}
+
+/* making the input and search button to display on the right */
+#rightnav{
+    position:absolute;
+    top:20px;
+    right:30px;
+}
+
+#rightnav input{
+    padding-left:10px;
+    border-radius:7px;
+    font-size:1rem;
+    outline:none;
+}
+
+#rightnav button{
+    cursor:pointer;
+    border-radius:7px;
+    width:70px;
+    height:25px;
+    font-size:0.9rem;
+}
+#rightnav button:hover{
+    color:black;
+    background-color:yellow;
+    
+}
+
+
+/* main section */
+#container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+#container div #addborder{
+    border:2px solid grey;
+}
+#addborder input{
+    width:200px;
+}
+
+#addborder div{
+    font-size:1.3rem;
+}
+
+.addnote{
+    margin:5px 10px;
+}
+
+#addbtn{
+    font-size:1rem;
+    cursor:pointer;
+    display:block;
+    width:80px;
+    height:30px;
+    background-color:lightskyblue;
+    color:white;
+    outline:none;
+}
+#addbtn:hover{
+    background-color:blue;
+}
+
+/* Display notes */
+#displaynote{
+    display:flex;  
+    flex-wrap:wrap; 
+}
+#displaynote div{
+    margin:5px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    border:2px solid grey;
+    height:115px;
+}
+#displaynote div h2{
+    text-align:center;
+}
+.deletebtn{
+    margin-top:10px;
+    width:80px;
+    height:25px;
+    font-size:0.8rem;
+    border-radius:7px;
+    background-color:lightskyblue;
+    color:white;
+}
